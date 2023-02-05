@@ -40,7 +40,7 @@ let morsecode: {[key:string]: string} = {
     '--..': 'Z',
 };
 basic.forever(function () {
-    if (control.micros() - start > 4000000) {
+    if (control.micros() - start > 2000000) {
         input2 = ""
         basic.showString('', 0)
     }
